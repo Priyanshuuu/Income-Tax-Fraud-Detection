@@ -1,0 +1,41 @@
+{%extends "bootstrap/base.html" %}
+
+{% block content %}
+<!-- Main Content Is Here -->
+
+
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container"  style="background-color:#1dcaff">
+          <h1 class="display-3">Fraud Detector (Income Tax)</h1>
+          <p>Using Machine Learning to classify Tax declaration</p>
+          <p><a href="{{ url_for('index')}}" type="button" class="btn btn-danger" >Back</a></p>
+        </div>
+      </div>
+
+
+
+  <div class="container">
+        <!-- Details Page  -->
+        <h2 class="display-3">Graph</h2>
+            <div class="alert alert-danger" role="alert"  style="background-color:#1dcaff" >
+               <p>{{ name }}</p>
+               <img src="{{ url }}" alt="Chart" height="42" width="42">
+            </div>
+  </div>
+
+             
+            
+       
+
+{% endblock %}
+
+<!-- Main External 3-Party JS Is Here -->
+
+{% block scripts %}
+
+{{ super() }} 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+{% endblock%}
