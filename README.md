@@ -6,4 +6,4 @@
 * What this project contains a web-app based api that uses *Unsupervised methodology* to detect and score tax payers under-reporting their tax base in order to pay less taxes than they should.
 
 ## Work Flow
-
+1. First, a clustering phase is made, grouping similar tax declarations according to the values of their features.
