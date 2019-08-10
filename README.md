@@ -7,3 +7,4 @@
 
 ## Work Flow
 1. First, a clustering phase is made, grouping similar tax declarations according to the values of their features.
+2. Second, we adjust a probability distribution to the tax bases reported in each cluster.
