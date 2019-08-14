@@ -11,3 +11,4 @@
 3. Finally, we detect suspicious declarations using a quantile of the adjusted distribution.
 
 ## Technology Stack
+**Python is the language of choice for this software because of its ease of use and extensive ecosystem of libraries in the field machine learning**
