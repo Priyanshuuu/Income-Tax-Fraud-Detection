@@ -13,8 +13,8 @@
 ## Technology Stack
 **Python is the language of choice for this software because of its ease of use and extensive ecosystem of libraries in the field machine learning**
 The language I am going to use :
-* Sci-kit learn: For implementation of Supervised and Unsupervised learning algorithms (like Decision Trees, k-Means, Gaussian mixture model, Bayesian Gaussian model)
-* Pandas:
+* Sci-kit learn: For implementation of Supervised and Unsupervised learning algorithms (like Decision Trees, k-Means, Gaussian mixture model, Bayesian Gaussian model).
+* Pandas: For analysis and managing of data.
 * Matplotlib:
 * Numpy:
 
