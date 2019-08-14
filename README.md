@@ -16,5 +16,6 @@ The language I am going to use :
 * Sci-kit learn
 * Pandas
 * Matplotlib
-* 
+* Numpy
+
 
